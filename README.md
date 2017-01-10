@@ -52,7 +52,7 @@ http://lethalman.blogspot.si/2014/07/nix-pill-1-why-you-should-give-it-try.html
 - string interpolation `"${foo}bar"`
 - `''multiline strings''`
 - `[ funky "list" "syntax ] # no commas`
-- `{ foo: "bar"; "baz" = quux; nested.thingy = 1 }`
+- `{ foo: "bar"; "baz" = quux; nested.thingy = 1; }`
   - called sets, actually more like python dicts
   - yes, semicolons
   - lazy again
